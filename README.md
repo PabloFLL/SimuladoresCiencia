@@ -1,37 +1,14 @@
-# Laboratorio de ciencias — GitHub Pages
+# Laboratorio de Fisica y Quimica
 
-Esta carpeta contiene la web completa y los simuladores 2D y 3D. No necesita instalación ni compilación.
+Web estatica lista para GitHub Pages. Incluye los simuladores, estilos, scripts y descargas.
 
-## Publicar en tu repositorio
+## Publicar
 
-1. Descomprime el ZIP en tu ordenador.
-2. Abre el repositorio que has creado en GitHub.
-3. Pulsa Add file → Upload files.
-4. Arrastra los archivos contenidos en la carpeta descomprimida, incluido index.html. Sube los archivos, no el ZIP ni la carpeta contenedora.
-5. Pulsa Commit changes para guardarlos en la rama main.
-6. Entra en Settings → Pages.
-7. En Build and deployment elige Source → Deploy from a branch.
-8. Selecciona Branch → main y carpeta / (root). Pulsa Save.
-9. Espera a que GitHub termine la publicación. La misma página Pages mostrará el enlace definitivo.
+1. Descomprime el ZIP y sube TODO su contenido a la raiz de tu repositorio. index.html debe estar en la raiz, junto a assets/ y descargas/. No subas solamente el ZIP.
+2. En GitHub, abre Settings > Pages > Build and deployment.
+3. Selecciona Deploy from a branch, la rama main y /(root). Pulsa Save.
+4. GitHub mostrara la direccion de la web en Pages cuando termine el despliegue.
 
-El enlace tendrá este formato:
-https://TU_USUARIO.github.io/NOMBRE_DEL_REPOSITORIO/
+No necesitas instalar dependencias ni compilar. Conserva los nombres y las carpetas.
 
-Si el repositorio se llama TU_USUARIO.github.io, el enlace será:
-https://TU_USUARIO.github.io/
-
-El alumnado podrá abrir la web publicada sin entrar en ChatGPT. En GitHub Free, el repositorio debe ser público.
-
-## Archivos
-
-- index.html: hub del Laboratorio de ciencias.
-- catalogo.js: tarjetas, búsqueda, filtros y favoritos.
-- particulas-2d.html: área barrida, choques y cobertura 2D.
-- particulas-3d.html: volumen barrido, choques, cobertura 3D y cámara.
-- .nojekyll: permite servir directamente los archivos estáticos.
-
-Los enlaces de los simuladores son relativos. La descarga de cada simulador conserva la dirección del sitio donde lo abras, por lo que funciona también desde GitHub Pages. Los favoritos se guardan en el navegador.
-
-## Añadir otro simulador
-
-Sube su HTML al repositorio y añade una entrada a SIMULATORS en catalogo.js.
+Documentacion: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
