@@ -1,14 +1,19 @@
-# Laboratorio de Fisica y Quimica
+# Laboratorio de ciencias
 
-Web estatica lista para GitHub Pages. Incluye los simuladores, estilos, scripts y descargas.
+Simulaciones de Física y Química para explorar en clase.
 
-## Publicar
+**Abrir la web:** [Laboratorio de ciencias](https://pablofll.github.io/SimuladoresCiencia/)
 
-1. Descomprime el ZIP y sube TODO su contenido a la raiz de tu repositorio. index.html debe estar en la raiz, junto a assets/ y descargas/. No subas solamente el ZIP.
-2. En GitHub, abre Settings > Pages > Build and deployment.
-3. Selecciona Deploy from a branch, la rama main y /(root). Pulsa Save.
-4. GitHub mostrara la direccion de la web en Pages cuando termine el despliegue.
+## Ocho simuladores
 
-No necesitas instalar dependencias ni compilar. Conserva los nombres y las carpetas.
+- Boyle-Mariotte, Charles y Gay-Lussac.
+- Dalton y presiones parciales: mezcla 3D, impactos por especie, masas distintas, aire seco y retos.
+- Partículas en 2D y 3D.
+- Gas ideal frente a gas real y Van der Waals.
+- Caos y predictibilidad.
 
-Documentacion: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+La portada está en `index.html`, en la raíz. Todos los HTML y `assets/` forman una web estática: no necesita instalación ni compilación. Las explicaciones de cada modelo distinguen sus medidas, predicciones, unidades y simplificaciones.
+
+## Publicación
+
+GitHub Pages publica la rama `main`, carpeta raíz. `.nojekyll` permite servir directamente los archivos estáticos. Los enlaces son relativos y funcionan bajo `/SimuladoresCiencia/`.
