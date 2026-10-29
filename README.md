@@ -20,6 +20,12 @@ La portada está en `index.html`, en la raíz. Todos los HTML y `assets/` forman
 
 Siete experiencias para 2.º y 3.º de ESO: comparar masa y volumen, lupas de partículas, agua en tres estados, compresión del aire, flotación, fragmentar un bloque y medir un material desconocido con balanza y probeta. Incluye predicciones, seis retos experimentales y gráfica masa-volumen desplegable. Las condiciones, escalas, fuentes y límites de los modelos aparecen dentro del laboratorio.
 
+## Partículas en los tres estados
+
+[Abrir el simulador microscópico](https://pablofll.github.io/SimuladoresCiencia/estados-materia.html)
+
+Tres ventanas 3D idénticas para comparar sólido, líquido y gas, con esferas de igual masa y tamaño. Oscilaciones, colisiones, densidades relativas desde el recuento, reproducción, trayectorias y cuadrícula; comparación ilustrativa bajo condiciones distintas. Es independiente del laboratorio de densidad y está integrado en Materia.
+
 ## Publicación
 
 GitHub Pages publica la rama `main`, carpeta raíz. `.nojekyll` permite servir directamente los archivos estáticos. Los enlaces son relativos y funcionan bajo `/SimuladoresCiencia/`.
