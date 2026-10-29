@@ -26,6 +26,12 @@ Siete experiencias para 2.º y 3.º de ESO: comparar masa y volumen, lupas de pa
 
 Tres ventanas 3D idénticas para comparar sólido, líquido y gas, con esferas de igual masa y tamaño. Oscilaciones, colisiones, densidades relativas desde el recuento, reproducción, trayectorias y cuadrícula; comparación ilustrativa bajo condiciones distintas. Es independiente del laboratorio de densidad y está integrado en Materia.
 
+## Dilución de disoluciones · 1.º de Bachillerato
+
+[Abrir el simulador de dilución](https://pablofll.github.io/SimuladoresCiencia/dilucion.html)
+
+Añade agua con llenado animado, conserva cada trazador naranja de soluto y observa M = n/V. Compara antes y después a la misma escala. Caso inicial: 0,20 mol en 0,50 L = 0,40 M; final: 1 L = 0,20 M. Acceso desde Materia.
+
 ## Publicación
 
 GitHub Pages publica la rama `main`, carpeta raíz. `.nojekyll` permite servir directamente los archivos estáticos. Los enlaces son relativos y funcionan bajo `/SimuladoresCiencia/`.
